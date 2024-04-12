@@ -1,0 +1,59 @@
+body{margin: 0;padding: 0;background-image: url(sun.jpg);background-size: cover;width: 100%;opacity: 510px;}
+.h1{background-color: brown;width: 100%;height: 60px;position: relative;}
+h1{color: white;text-align: center;justify-content: center;position: absolute;padding-top: 15px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.div1{color: black;height: 160px;position: relative;font-size: larger;font-weight: 500;text-align: center;justify-content: center;}
+hr{position: relative;top: 20px;}
+marquee{position: absolute;top: 190px;font-size: larger;font-weight: 500;}
+.img1{position: absolute;top: 220px;width: 100%;height: 70%;}
+
+  .image-show img {
+    position: absolute;
+    overflow: hidden;
+    top: 250px;
+    left: 0px;
+    animation-name: imageshow;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+  }
+  @keyframes imageshow {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  .image-show img:nth-of-type(1) {
+    animation-delay: 6s;
+  }
+  .image-show img:nth-of-type(2) {
+    animation-delay: 4s;
+  }
+  .image-show img:nth-of-type(3) {
+    animation-delay: 2s;
+  }
+  .image-show img:nth-of-type(4) {
+    animation-delay: 0;
+  }
+  .div2{position: absolute;top: 800px;width: 50%;height: 40%;box-sizing: border-box;left: 400px;box-shadow:20px 20px 20px 20px;}
+  .he1{position: relative;top: 0px;color:black;}
+  .p1{position: relative;top: 0px;color: black;line-height: 22px;text-align:center;}
+  .div3{position: relative;top: 900px;color: black;font-size: 40px;text-align: center;font-weight: bolder;}
+  .p2{position: relative;color: blanchedalmond;font-size: 35px;top: 950px;text-align: center;font-weight: bold;}
+  .img1{position: relative;top: 980px;width: 40%;height: 10%;left: 470px;}
+  .p3{position: relative;text-align: center;color: white;top: 1000px;text-align-last: center;}
+  .p4{position: relative;color: blanchedalmond;font-size: 35px;top: 1050px;text-align: center;font-weight: bold;}
+  .img2{position: relative;top: 1080px;width: 40%;height: 10%;left: 470px;}
+  .p5{position: relative;text-align: center;color: white;top: 1110px;text-align-last: center;}
+  .p6{position: relative;color:blanchedalmond;font-size: 35px;top: 1160px;text-align: center;font-weight: bold;}
+  .img3{position: relative;top: 1190px;width: 40%;height: 10%;left: 470px;}
+  .p7{position: relative;text-align: center;color: white;top: 1210px;text-align-last: center;}
